@@ -10,7 +10,7 @@ class TestesTrabalho {
     @Test
     void testParallel() {
         Results results = Runner.path("classpath:testes_api")
-                .tags("@appleMusic")
+                .tags("@bored")
                 //.outputCucumberJson(true)
                 .parallel(5);
         assertEquals(0, results.getFailCount(), results.getErrorMessages());
